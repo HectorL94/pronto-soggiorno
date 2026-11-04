@@ -58,6 +58,9 @@ numero**, e sulla schermata di blocco compare solo un messaggio generico.
 ## Autorizzazioni
 - **Internet**: per contattare `questure.poliziadistato.it`.
 - **Notifiche** (Android 13+, facoltativa): per avvisarti dei cambiamenti. L'app funziona anche senza.
+- Autorizzazioni tecniche usate dal pianificatore di Android (WorkManager), concesse automaticamente e
+  non legate ai tuoi dati: stato della rete (per attendere la connessione), avvio dopo il riavvio del
+  telefono (per mantenere la pianificazione) e mantenere attivo il telefono per i pochi secondi di una verifica.
 
 ## Per quanto tempo si conservano i dati
 - Le verifiche di routine (senza novità o non riuscite) si cancellano automaticamente dopo 60 giorni.
@@ -86,4 +89,5 @@ Le modifiche vengono pubblicate in questo file del repository, con una nuova dat
 La cronologia di ogni modifica è visibile nel repository.
 
 ## Contatti
-Domande o segnalazioni: apri una issue su <https://github.com/HectorL94/pronto-soggiorno/issues>.
+Domande o segnalazioni: scrivi a <hlicea.dev@gmail.com> oppure apri una issue su
+<https://github.com/HectorL94/pronto-soggiorno/issues>.

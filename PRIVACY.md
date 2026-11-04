@@ -58,6 +58,9 @@ the number**, and the lock-screen version shows only a generic message.
 ## Permissions
 - **Internet**: to contact `questure.poliziadistato.it`.
 - **Notifications** (Android 13+, optional): to alert you about changes. The app works without it.
+- Technical permissions used by Android's background scheduler (WorkManager), granted automatically
+  and not related to your data: network state (to wait for a connection), run after the phone
+  restarts (to keep the schedule) and keep the phone awake for the few seconds a check takes.
 
 ## How long data is kept
 - Routine checks (no change, or failed) are deleted automatically after 60 days.
@@ -87,4 +90,5 @@ Changes are published in this file in the repository, with a new effective date.
 every change is visible in the repository.
 
 ## Contact
-Questions or concerns: open an issue at <https://github.com/HectorL94/pronto-soggiorno/issues>.
+Questions or concerns: write to <hlicea.dev@gmail.com> or open an issue at
+<https://github.com/HectorL94/pronto-soggiorno/issues>.

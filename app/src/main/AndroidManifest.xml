@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Única permisión de red: solo se usa para questure.poliziadistato.it (ver :core PortalOnlyInterceptor). -->
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- Android 13+: avisos cuando cambia el estado. Se pide al usuario; la app funciona sin él. -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!--
+      WorkManager añade por su cuenta el permiso y el servicio de "primer plano". La app nunca
+      trabaja en primer plano (solo tareas periódicas normales), así que se quitan: menos permisos
+      y nada que justificar en Google Play.
+    -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" tools:node="remove" />
 
     <!--
       Privacidad:
@@ -33,6 +40,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            tools:node="remove" />
 
         <!-- Guarda el idioma elegido dentro de la app en Android < 13. -->
         <service

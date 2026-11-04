@@ -1,0 +1,21 @@
+App indipendente: non affiliata alla Polizia di Stato, al Ministero dell'Interno né a Poste Italiane. Fonte delle informazioni: la pagina pubblica dello stato su https://questure.poliziadistato.it
+
+Aspetti il permesso di soggiorno? Invece di controllare il portale ogni giorno, aggiungi il numero di pratica o il numero dell'assicurata: Pronto Soggiorno lo verifica al posto tuo e ti avvisa quando lo stato cambia.
+
+Come funziona
+• Aggiungi una o più pratiche (tue o di familiari che te lo hanno chiesto), con un nome facoltativo come "Io" o "Mamma".
+• L'app consulta la pagina pubblica di questure.poliziadistato.it ogni 6, 12 o 24 ore, con Wi-Fi o dati mobili.
+• Quando lo stato cambia ricevi una notifica. Quando il permesso è pronto per la consegna, l'app ti dice di aspettare l'SMS con l'appuntamento e interrompe le verifiche automatiche.
+• Il testo pubblicato dal portale viene sempre mostrato così com'è, insieme all'ufficio di ritiro quando disponibile.
+• Se un numero non viene trovato per 30 giorni, le verifiche automatiche vanno in pausa e ti viene chiesto di controllare il numero.
+
+Privacy prima di tutto
+• Niente account, server, statistiche né pubblicità.
+• I numeri sono salvati cifrati sul telefono e inviati solo a questure.poliziadistato.it.
+• Le notifiche mostrano il nome che scegli, mai il numero.
+• Software libero e open source (GPL-3.0): https://github.com/HectorL94/pronto-soggiorno
+
+Lingue: Italiano, English, Español, Français, العربية, Русский, Українська.
+
+Importante
+Pronto Soggiorno legge solo informazioni già pubbliche sul portale: non accelera la pratica e non dà accesso ad altro. L'informazione ufficiale è sempre quella del portale e della tua Questura. Aggiungi solo numeri che hai diritto di verificare.

@@ -1,0 +1,21 @@
+Independent app: not affiliated with the Polizia di Stato, the Ministero dell'Interno or Poste Italiane. Source of the information: the public status page at https://questure.poliziadistato.it
+
+Waiting for your permesso di soggiorno? Instead of checking the portal every day, add your application number (pratica) or postal receipt number (assicurata): Pronto Soggiorno checks it for you and notifies you when the status changes.
+
+How it works
+• Add one or more applications (yours, or of family members who asked you), with an optional name such as "Me" or "Mum".
+• The app checks the public status page of questure.poliziadistato.it every 6, 12 or 24 hours, on Wi-Fi or mobile data.
+• When the status changes you get a notification. When the permit is ready for collection, the app tells you to wait for the SMS with the appointment and stops the automatic checks.
+• The text published by the portal is always shown exactly as it is, in Italian, together with the collection office when available.
+• If a number is not found for 30 days, automatic checks pause and you are asked to check the number.
+
+Privacy first
+• No account, no servers, no analytics, no ads.
+• Numbers are stored encrypted on your phone and sent only to questure.poliziadistato.it.
+• Notifications show the name you choose, never the number.
+• Free and open-source software (GPL-3.0): https://github.com/HectorL94/pronto-soggiorno
+
+Languages: Italiano, English, Español, Français, العربية, Русский, Українська.
+
+Important
+Pronto Soggiorno only reads information that is already public on the portal: it does not speed up your application and gives no access to anything else. The official information is always what the portal and your Questura tell you. Only add numbers you are entitled to check.

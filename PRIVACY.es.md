@@ -58,6 +58,10 @@ el número**, y en la pantalla de bloqueo solo aparece un mensaje genérico.
 ## Permisos
 - **Internet**: para contactar con `questure.poliziadistato.it`.
 - **Notificaciones** (Android 13+, opcional): para avisarte de los cambios. La app funciona sin él.
+- Permisos técnicos que usa el planificador de Android (WorkManager), concedidos automáticamente y sin
+  relación con tus datos: estado de la red (para esperar a que haya conexión), arrancar tras reiniciar el
+  teléfono (para mantener la programación) y mantener el teléfono despierto los pocos segundos que dura
+  una verificación.
 
 ## Cuánto tiempo se guardan los datos
 - Las verificaciones rutinarias (sin cambios o fallidas) se borran solas a los 60 días.
@@ -86,4 +90,5 @@ Los cambios se publican en este archivo del repositorio, con una nueva fecha de 
 El historial de cada cambio es visible en el repositorio.
 
 ## Contacto
-Preguntas o dudas: abre una *issue* en <https://github.com/HectorL94/pronto-soggiorno/issues>.
+Preguntas o dudas: escribe a <hlicea.dev@gmail.com> o abre una *issue* en
+<https://github.com/HectorL94/pronto-soggiorno/issues>.

@@ -1,0 +1,21 @@
+Application indépendante : sans lien avec la Polizia di Stato, le Ministero dell'Interno ni Poste Italiane. Source des informations : la page publique de suivi sur https://questure.poliziadistato.it
+
+Vous attendez votre permesso di soggiorno ? Au lieu de consulter le portail tous les jours, ajoutez votre numéro de pratica ou d'assicurata (reçu postal) : Pronto Soggiorno le vérifie pour vous et vous avertit quand le statut change.
+
+Comment ça marche
+• Ajoutez une ou plusieurs demandes (les vôtres, ou celles de proches qui vous l'ont demandé), avec un nom facultatif comme « Moi » ou « Maman ».
+• L'application consulte la page publique de questure.poliziadistato.it toutes les 6, 12 ou 24 heures, en Wi-Fi ou en données mobiles.
+• Quand le statut change, vous recevez une notification. Quand le permis est prêt à être retiré, l'application vous invite à attendre le SMS avec le rendez-vous et arrête les vérifications automatiques.
+• Le texte publié par le portail est toujours affiché tel quel, en italien, avec le bureau de retrait lorsqu'il est indiqué.
+• Si un numéro reste introuvable pendant 30 jours, les vérifications automatiques sont mises en pause et l'on vous invite à vérifier le numéro.
+
+La confidentialité d'abord
+• Pas de compte, pas de serveur, pas de statistiques, pas de publicité.
+• Les numéros sont enregistrés chiffrés sur votre téléphone et envoyés uniquement à questure.poliziadistato.it.
+• Les notifications affichent le nom que vous choisissez, jamais le numéro.
+• Logiciel libre et open source (GPL-3.0) : https://github.com/HectorL94/pronto-soggiorno
+
+Langues : Italiano, English, Español, Français, العربية, Русский, Українська.
+
+Important
+Pronto Soggiorno lit uniquement des informations déjà publiques sur le portail : il n'accélère pas votre demande et ne donne accès à rien d'autre. L'information officielle reste celle du portail et de votre Questura. N'ajoutez que des numéros que vous avez le droit de vérifier.
