@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+	<title>Permesso di soggiorno</title>
+	<link>https://questure.poliziadistato.it/stranieri/</link>
+	<description>Polizia di Stato</description>
+	<language>it</language>
+	<!--image>
+		<url>https://www.poliziadistato.it/pds/images/araldo75px.png</url>
+		<title>Il sito ufficiale della Polizia di Stato</title>
+		<link>https://www.poliziadistato.it</link>
+		<width>50</width>
+		<height>80</height>
+	</image-->
+	<item>
+		<title>Numero pratica o assicurata : 00ZZ000000 </title>
+		<link>https://questure.poliziadistato.it/servizio/servizio/stranieri/?lang=italian&amp;pratica=00ZZ000000</link>
+		<description>
+		<![CDATA[
+                Il documento di soggiorno &egrave; pronto per la consegna.In consegna, con sms le verrà indicato quando e dove ritirare il permesso di soggiorno                <br />
+		Lo pu&ograve; ritirare presso: UFFICIO IMMIGRAZIONE PRESSO UFFICIO STRANIERI POLIZIA - COSENZA <br />
+		                         <a href="https://questure.poliziadistato.it/servizio/orari/5730dc9d1659b749666027">Orari Questura - Cosenza</a>
+
+		]]>
+		</description>
+        <guid>https://questure.poliziadistato.it/servizio/stranieri/?lang=italian&pratica=00ZZ000000</guid>
+        <pubDate>Wed, 04 Nov 26 11:45:42 +0100</pubDate>
+	</item>
+
+	</channel>
+</rss>

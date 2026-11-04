@@ -1,0 +1,31 @@
+# material personal de investigación
+/venv/
+/test_call.ipynb 
+/general.png
+/requests headers.png
+/response headers.png
+/heder of the call.md
+/stitch_permesso_alert_android_app
+
+# Gradle / Kotlin
+.gradle/
+build/
+.kotlin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Firma de la app (nunca al repositorio)
+*.jks
+*.keystore
+keystore.properties
+
+# Sistema
+.DS_Store
+Thumbs.db

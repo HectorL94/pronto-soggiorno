@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Comunes -->
+    <string name="action_back">Назад</string>
+    <string name="action_cancel">Скасувати</string>
+    <string name="action_save">Зберегти</string>
+    <string name="action_delete">Видалити</string>
+    <string name="action_continue">Продовжити</string>
+    <string name="action_close">Закрити</string>
+    <string name="error_no_browser">Немає застосунку, щоб відкрити посилання.</string>
+    <string name="independence_long">Pronto Soggiorno — незалежний застосунок, не пов\'язаний з Polizia di Stato чи Ministero dell\'Interno. Він читає загальнодоступну сторінку статусу на questure.poliziadistato.it — ту саму, яку ви можете відкрити в браузері. Офіційною інформацією завжди є те, що повідомляють портал і Questura.</string>
+
+    <!-- Estados -->
+    <string name="status_ready">Готовий до видачі</string>
+    <string name="status_in_progress">На розгляді</string>
+    <string name="status_not_found">Не знайдено</string>
+    <string name="status_unknown">Відповідь не розпізнано</string>
+    <string name="status_not_checked">Ще не перевірено</string>
+    <string name="status_ready_explain">Портал повідомляє, що ваш дозвіл на проживання готовий до видачі.</string>
+    <string name="status_in_progress_explain">Портал повідомляє, що ваша заява ще на розгляді. Ми повідомимо, коли статус зміниться.</string>
+    <string name="status_not_found_explain">Портал не знаходить цей номер. Перевірте, чи він правильний: нові заяви можуть з\'явитися через кілька днів. Якщо номер не з\'явиться протягом 30 днів, автоматичну перевірку буде призупинено.</string>
+    <string name="status_unknown_explain">Портал опублікував текст, який застосунок не розпізнає. Прочитайте його нижче або відкрийте портал.</string>
+    <string name="status_not_checked_explain">Статус з\'явиться тут після першої перевірки.</string>
+    <string name="label_paused">На паузі</string>
+    <string name="label_monitoring_done">Перевірки зупинено</string>
+
+    <!-- Motivos de fallo -->
+    <string name="failure_timeout">портал надто довго не відповідав</string>
+    <string name="failure_no_connection">немає з\'єднання з інтернетом</string>
+    <string name="failure_tls">не вдалося встановити захищене з\'єднання</string>
+    <string name="failure_blocked">з\'єднання заблоковано з міркувань безпеки</string>
+    <string name="failure_network">помилка мережі</string>
+    <string name="failure_http">портал відповів помилкою (HTTP %1$s)</string>
+    <string name="failure_unexpected">портал надіслав неочікувану відповідь</string>
+
+    <!-- Lista -->
+    <string name="list_add">Додати заяву</string>
+    <string name="list_empty_title">Заяв поки немає</string>
+    <string name="list_empty_body">Додайте номер вашої заяви (pratica) або поштової квитанції (assicurata), і застосунок перевірятиме статус за вас.</string>
+    <string name="list_unnamed">Заява без назви</string>
+    <string name="list_last_check">Остання перевірка: %1$s</string>
+    <string name="list_never_checked">Ще не перевірено</string>
+    <string name="list_last_attempt_failed">Остання спроба не вдалася</string>
+    <string name="list_unreadable">Дані цієї заяви неможливо прочитати на цьому телефоні</string>
+    <string name="banner_notifications_off_title">Сповіщення вимкнено</string>
+    <string name="banner_notifications_off_body">Ви не отримаєте повідомлення, коли документ буде готовий. Статус можна переглянути, відкривши застосунок.</string>
+    <string name="banner_notifications_enable">Увімкнути сповіщення</string>
+
+    <!-- Añadir -->
+    <string name="add_title">Додати заяву</string>
+    <string name="add_intro">Введіть номер pratica або номер assicurata (поштової квитанції). Застосунок сам визначить, який це номер.</string>
+    <string name="add_number_label">Номер pratica або assicurata</string>
+    <string name="add_number_hint">Pratica: 10 символів (2 цифри, 2 літери, 6 цифр). Assicurata: 12 цифр.</string>
+    <string name="add_detected_pratica">Номер pratica</string>
+    <string name="add_detected_assicurata">Номер assicurata (поштова квитанція)</string>
+    <string name="add_error_empty">Введіть номер.</string>
+    <string name="add_error_length">Номер має містити 10 символів (pratica) або 12 цифр (assicurata).</string>
+    <string name="add_error_format">Неправильний формат. Перевірте номер на квитанції.</string>
+    <string name="add_error_duplicate">Цей номер уже є у вашому списку.</string>
+    <string name="add_alias_label">Назва (необов\'язково)</string>
+    <string name="add_alias_hint">Наприклад, «Я» або «Мама». Показується в застосунку та в сповіщеннях замість номера.</string>
+    <string name="add_where_title">Де знайти номер?</string>
+    <string name="add_where_body">Номер pratica вказано на квитанції, яку вам видала Questura. Номер assicurata — це 12-значний код на квитанції італійської пошти, отриманій під час надсилання пакета документів.</string>
+    <string name="add_privacy_note">Номер зберігається в зашифрованому вигляді на цьому телефоні й надсилається лише на questure.poliziadistato.it для перевірки статусу.</string>
+    <string name="add_consent">Додавайте лише власні номери або номери людей, які попросили вас їх перевіряти.</string>
+    <string name="add_save">Додати й перевірити</string>
+
+    <!-- Detalle -->
+    <string name="detail_ready_title">Ваш документ готовий!</string>
+    <string name="detail_ready_sms">Дочекайтеся SMS про те, коли й де його отримати</string>
+    <string name="detail_checking">Перевірка…</string>
+    <string name="detail_check_now">Перевірити зараз</string>
+    <string name="detail_pause">Пауза</string>
+    <string name="detail_resume">Відновити</string>
+    <string name="detail_open_portal">Відкрити портал</string>
+    <string name="detail_open_portal_hint">«Відкрити портал» відкриває questure.poliziadistato.it у вашому браузері, поза цим застосунком.</string>
+    <string name="detail_rename">Перейменувати</string>
+    <string name="detail_show_number">Показати</string>
+    <string name="detail_hide_number">Приховати</string>
+    <string name="detail_portal_text_label">Текст, опублікований на порталі</string>
+    <string name="detail_portal_text_note">Показано точно так, як його публікує портал, італійською.</string>
+    <string name="detail_office_label">Де отримати</string>
+    <string name="detail_office_hours">Години роботи офісу</string>
+    <string name="detail_last_check">Остання перевірка</string>
+    <string name="detail_auto_checks">Автоматична перевірка</string>
+    <string name="detail_auto_paused">На паузі</string>
+    <string name="detail_auto_done">Зупинено: документ готовий</string>
+    <plurals name="detail_auto_every">
+        <item quantity="one">Приблизно кожну %1$d годину</item>
+        <item quantity="few">Приблизно кожні %1$d години</item>
+        <item quantity="many">Приблизно кожні %1$d годин</item>
+        <item quantity="other">Приблизно кожні %1$d години</item>
+    </plurals>
+    <string name="detail_failed_banner">Остання перевірка не вдалася: %1$s. Її буде повторено автоматично.</string>
+    <string name="detail_too_soon">Ви щойно перевіряли. Спробуйте за хвилину.</string>
+    <string name="detail_check_unchanged">Перевірено: без змін.</string>
+    <string name="detail_check_changed">Перевірено: статус оновлено.</string>
+    <string name="detail_check_failed">Перевірка не вдалася.</string>
+    <string name="detail_delete_title">Видалити цю заяву?</string>
+    <string name="detail_delete_body">Її номер та історію буде видалено з цього телефона.</string>
+    <string name="detail_unreadable_title">Не вдається прочитати заяву</string>
+    <string name="detail_unreadable_body">Її зашифровані дані неможливо відкрити на цьому телефоні (наприклад, після відновлення). Видаліть її та додайте знову.</string>
+    <string name="history_title">Історія</string>
+    <string name="history_empty">Перевірок ще не було.</string>
+    <string name="history_no_changes">Статус ще не змінювався.</string>
+    <string name="history_show_all">Показати всі перевірки (%1$d)</string>
+    <string name="history_show_changes">Показати лише зміни</string>
+    <string name="history_unchanged">Без змін</string>
+    <string name="history_failed">Помилка: %1$s</string>
+    <string name="history_manual">вручну</string>
+
+    <!-- Ajustes -->
+    <string name="settings_title">Налаштування</string>
+    <string name="settings_language">Мова</string>
+    <string name="settings_language_system">Мова системи</string>
+    <string name="settings_section_checks">Автоматична перевірка</string>
+    <plurals name="settings_every_hours">
+        <item quantity="one">Кожну %1$d годину</item>
+        <item quantity="few">Кожні %1$d години</item>
+        <item quantity="many">Кожні %1$d годин</item>
+        <item quantity="other">Кожні %1$d години</item>
+    </plurals>
+    <string name="settings_recommended">Рекомендовано</string>
+    <string name="settings_frequency_note">Працює через Wi-Fi і мобільний інтернет (близько 1 КБ на перевірку). Android може трохи відкладати її, щоб заощадити батарею. Статус змінюється за дні: частіші перевірки його не пришвидшать.</string>
+    <string name="settings_section_notifications">Сповіщення</string>
+    <string name="settings_notify_all">Повідомляти про будь-які зміни</string>
+    <string name="settings_notify_all_desc">Якщо вимкнено, сповіщення надійде лише тоді, коли документ буде готовий.</string>
+    <string name="settings_notifications_system">Дозвіл на сповіщення</string>
+    <string name="settings_notifications_on">Дозволено</string>
+    <string name="settings_notifications_off">Заблоковано. Торкніться, щоб дозволити.</string>
+    <string name="settings_section_privacy">Конфіденційність</string>
+    <string name="privacy_body">Що зберігається: додані вами номери, назви, які ви їм дали, та історія перевірок. Усе залишається на цьому телефоні; номери й назви зашифровано ключем, що зберігається в Android Keystore. Резервне копіювання Android для цього застосунку вимкнено.\n\nКуди надсилається: кожна перевірка надсилає номер лише на questure.poliziadistato.it — загальнодоступний портал Polizia di Stato — захищеним з\'єднанням (HTTPS).\n\nЧого немає: облікових записів, наших серверів, аналітики, реклами.</string>
+    <string name="settings_section_about">Про застосунок</string>
+    <string name="settings_version">Версія %1$s</string>
+    <string name="settings_license">Вільне ПЗ за ліцензією GNU GPL v3.0</string>
+    <string name="settings_licenses">Ліцензії відкритого ПЗ</string>
+    <string name="settings_source">Вихідний код</string>
+    <string name="settings_section_data">Дані</string>
+    <string name="settings_delete_all">Видалити всі дані</string>
+    <string name="settings_delete_all_title">Видалити всі дані?</string>
+    <string name="settings_delete_all_body">Усі заяви, їхню історію та налаштування буде видалено з цього телефона. Цю дію неможливо скасувати.</string>
+
+    <!-- Bienvenida -->
+    <string name="onb_welcome_title">Ласкаво просимо до Pronto Soggiorno</string>
+    <string name="onb_welcome_body">Дізнайтеся, коли ваш permesso di soggiorno буде готовий, не заходячи на портал щодня.</string>
+    <string name="onb_independence_title">Незалежний застосунок</string>
+    <string name="onb_privacy_title">Ваші дані залишаються у вас</string>
+    <string name="onb_privacy_body">Без облікових записів, серверів, аналітики й реклами. Номери зберігаються в зашифрованому вигляді на цьому телефоні й надсилаються лише на портал Polizia.</string>
+    <string name="onb_language_title">Оберіть мову</string>
+    <string name="onb_notifications_title">Сповіщення</string>
+    <string name="onb_notifications_body">Дозвольте сповіщення, щоб застосунок повідомив, коли документ буде готовий. У сповіщеннях показується лише обрана вами назва, а не номер.</string>
+    <string name="onb_notifications_allow">Дозволити сповіщення</string>
+    <string name="onb_notifications_granted">Сповіщення дозволено.</string>
+    <string name="onb_notifications_denied">Без сповіщень вам доведеться відкривати застосунок, щоб побачити статус. Це можна змінити пізніше в налаштуваннях.</string>
+    <string name="onb_start">Додати мою заяву</string>
+    <string name="onb_later">Пізніше</string>
+    <string name="label_not_found_paused">На паузі: не знайдено</string>
+    <string name="detail_auto_not_found">На паузі: номер не знайдено за 30 днів</string>
+    <string name="detail_not_found_paused_title">Автоматичну перевірку призупинено</string>
+    <string name="detail_not_found_paused_body">Портал не знаходить цей номер понад 30 днів. Перевірте, чи він правильний; якщо ні — видаліть заяву й додайте знову. Перевіряти вручну все ще можна: якщо номер з\'явиться, автоматична перевірка відновиться сама.</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icono propio: tarjeta de documento + marca de "listo". Sin escudos ni símbolos oficiales. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33,34h32a5,5 0,0 1,5 5v20a5,5 0,0 1,-5 5h-32a5,5 0,0 1,-5 -5v-20a5,5 0,0 1,5 -5z" />
+    <path
+        android:fillColor="#C9D6EA"
+        android:pathData="M34,40h10a2,2 0,0 1,2 2v12a2,2 0,0 1,-2 2h-10a2,2 0,0 1,-2 -2v-12a2,2 0,0 1,2 -2z" />
+    <path
+        android:fillColor="#C9D6EA"
+        android:pathData="M50,43h15v3h-15zM50,49h11v3h-11z" />
+    <path
+        android:fillColor="#17365D"
+        android:pathData="M54,64a14,14 0,1 0,28 0a14,14 0,1 0,-28 0z" />
+    <path
+        android:fillColor="#16A085"
+        android:pathData="M57,64a11,11 0,1 0,22 0a11,11 0,1 0,-22 0z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M62.5,64.5l3.8,3.8l7.4,-7.6" />
+</vector>

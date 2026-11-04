@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Las notificaciones nunca incluyen el número de pratica: solo el alias que elige el usuario. -->
+<resources>
+    <string name="channel_ready_name">Permit ready</string>
+    <string name="channel_ready_description">Alerts you when a residence permit is ready for collection.</string>
+    <string name="channel_updates_name">Status changes</string>
+    <string name="channel_updates_description">Other changes in the status published by the portal.</string>
+    <string name="notification_ready_title_alias">%1$s: permit ready</string>
+    <string name="notification_ready_title">Permit ready</string>
+    <string name="notification_ready_text">Ready for collection. Open the app to see where and how to collect it.</string>
+    <string name="notification_changed_title_alias">%1$s: status changed</string>
+    <string name="notification_changed_title">Status changed</string>
+    <string name="notification_changed_text">Open the app to read the text published by the portal.</string>
+    <string name="notification_public_text">News about one of your applications</string>
+    <string name="notification_notfound_title_alias">%1$s: number not found</string>
+    <string name="notification_notfound_title">Number not found</string>
+    <string name="notification_notfound_text">Not found on the portal for 30 days: automatic checks are paused. Check the number.</string>
+</resources>

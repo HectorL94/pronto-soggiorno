@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Pronto Soggiorno</string>
+    <string name="independence_notice">Independent app. Not affiliated with the Polizia di Stato or the Ministero dell\'Interno.</string>
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Textos de las pantallas. Reglas:
+  - Nunca decir que la app es "oficial" ni hablar en nombre de la Polizia.
+  - Solo afirmar sobre seguridad lo que la app hace de verdad.
+-->
+<resources>
+    <!-- Comunes -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_close">Close</string>
+    <string name="error_no_browser">No app found to open the link.</string>
+    <string name="independence_long">Pronto Soggiorno is an independent app, not affiliated with the Polizia di Stato or the Ministero dell\'Interno. It reads the public status page of questure.poliziadistato.it, the same one you can open in a browser. The official information is always what the portal and the Questura tell you.</string>
+
+    <!-- Estados -->
+    <string name="status_ready">Ready for collection</string>
+    <string name="status_in_progress">Being processed</string>
+    <string name="status_not_found">Not found</string>
+    <string name="status_unknown">Unrecognised response</string>
+    <string name="status_not_checked">Not checked yet</string>
+    <string name="status_ready_explain">The portal says your permit is ready for collection.</string>
+    <string name="status_in_progress_explain">The portal says your application is still being processed. We\'ll let you know when it changes.</string>
+    <string name="status_not_found_explain">The portal does not find this number. Check that it is correct: new applications can take some days to appear. If it doesn\'t appear within 30 days, automatic checks will pause.</string>
+    <string name="status_unknown_explain">The portal published a text the app does not recognise. Read it below or open the portal.</string>
+    <string name="status_not_checked_explain">The status will appear here after the first check.</string>
+    <string name="label_paused">Paused</string>
+    <string name="label_monitoring_done">Checks stopped</string>
+
+    <!-- Motivos de fallo (completan la frase "The last check failed: …") -->
+    <string name="failure_timeout">the portal took too long to answer</string>
+    <string name="failure_no_connection">no internet connection</string>
+    <string name="failure_tls">a secure connection could not be established</string>
+    <string name="failure_blocked">the connection was blocked for security reasons</string>
+    <string name="failure_network">network error</string>
+    <string name="failure_http">the portal answered with an error (HTTP %1$s)</string>
+    <string name="failure_unexpected">the portal sent an unexpected response</string>
+
+    <!-- Lista -->
+    <string name="list_add">Add application</string>
+    <string name="list_empty_title">No applications yet</string>
+    <string name="list_empty_body">Add the number of your application (pratica) or of your postal receipt (assicurata) and the app will check its status for you.</string>
+    <string name="list_unnamed">Unnamed application</string>
+    <string name="list_last_check">Last check: %1$s</string>
+    <string name="list_never_checked">Not checked yet</string>
+    <string name="list_last_attempt_failed">The last attempt failed</string>
+    <string name="list_unreadable">This application\'s data can\'t be read on this phone</string>
+    <string name="banner_notifications_off_title">Notifications are off</string>
+    <string name="banner_notifications_off_body">You won\'t be alerted when your permit is ready. You can still open the app to see the status.</string>
+    <string name="banner_notifications_enable">Turn on notifications</string>
+
+    <!-- Añadir -->
+    <string name="add_title">Add application</string>
+    <string name="add_intro">Enter the application number (pratica) or the postal receipt number (assicurata). The app recognises which one it is.</string>
+    <string name="add_number_label">Pratica or assicurata number</string>
+    <string name="add_number_hint">Pratica: 10 characters (2 digits, 2 letters, 6 digits). Assicurata: 12 digits.</string>
+    <string name="add_detected_pratica">Application number (pratica)</string>
+    <string name="add_detected_assicurata">Postal receipt number (assicurata)</string>
+    <string name="add_error_empty">Enter the number.</string>
+    <string name="add_error_length">The number must have 10 characters (pratica) or 12 digits (assicurata).</string>
+    <string name="add_error_format">This format is not valid. Check the number on your receipt.</string>
+    <string name="add_error_duplicate">This number is already in your list.</string>
+    <string name="add_alias_label">Name (optional)</string>
+    <string name="add_alias_hint">E.g. \"Me\" or \"Mum\". Shown in the app and in notifications instead of the number.</string>
+    <string name="add_where_title">Where do I find the number?</string>
+    <string name="add_where_body">The pratica number is on the receipt the Questura gave you. The assicurata number is the 12-digit code on the post office receipt you got when you sent the application kit.</string>
+    <string name="add_privacy_note">The number is stored encrypted on this phone and is only sent to questure.poliziadistato.it to check the status.</string>
+    <string name="add_consent">Only add numbers that are yours, or that their owner asked you to check.</string>
+    <string name="add_save">Add and check</string>
+
+    <!-- Detalle -->
+    <string name="detail_ready_title">Your permit is ready!</string>
+    <string name="detail_ready_sms">Wait for the SMS telling you when and where to collect it</string>
+    <string name="detail_checking">Checking…</string>
+    <string name="detail_check_now">Check now</string>
+    <string name="detail_pause">Pause</string>
+    <string name="detail_resume">Resume</string>
+    <string name="detail_open_portal">Open portal</string>
+    <string name="detail_open_portal_hint">\"Open portal\" opens questure.poliziadistato.it in your browser, outside this app.</string>
+    <string name="detail_rename">Rename</string>
+    <string name="detail_show_number">Show</string>
+    <string name="detail_hide_number">Hide</string>
+    <string name="detail_portal_text_label">Text published on the portal</string>
+    <string name="detail_portal_text_note">Shown exactly as the portal publishes it, in Italian.</string>
+    <string name="detail_office_label">Where to collect it</string>
+    <string name="detail_office_hours">Office opening hours</string>
+    <string name="detail_last_check">Last check</string>
+    <string name="detail_auto_checks">Automatic checks</string>
+    <string name="detail_auto_paused">Paused</string>
+    <string name="detail_auto_done">Stopped: the permit is ready</string>
+    <plurals name="detail_auto_every">
+        <item quantity="one">About every %1$d hour</item>
+        <item quantity="other">About every %1$d hours</item>
+    </plurals>
+    <string name="detail_failed_banner">The last check failed: %1$s. It will be retried automatically.</string>
+    <string name="detail_too_soon">You just checked. Try again in a minute.</string>
+    <string name="detail_check_unchanged">Checked: no changes.</string>
+    <string name="detail_check_changed">Checked: status updated.</string>
+    <string name="detail_check_failed">The check failed.</string>
+    <string name="detail_delete_title">Delete this application?</string>
+    <string name="detail_delete_body">Its number and history will be removed from this phone.</string>
+    <string name="detail_unreadable_title">This application can\'t be read</string>
+    <string name="detail_unreadable_body">Its encrypted data can\'t be opened on this phone (for example after restoring the phone). Delete it and add it again.</string>
+    <string name="history_title">History</string>
+    <string name="history_empty">No checks yet.</string>
+    <string name="history_no_changes">No status changes yet.</string>
+    <string name="history_show_all">Show all checks (%1$d)</string>
+    <string name="history_show_changes">Show only changes</string>
+    <string name="history_unchanged">No changes</string>
+    <string name="history_failed">Failed: %1$s</string>
+    <string name="history_manual">manual</string>
+
+    <!-- Ajustes -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_system">System language</string>
+    <string name="settings_section_checks">Automatic checks</string>
+    <plurals name="settings_every_hours">
+        <item quantity="one">Every %1$d hour</item>
+        <item quantity="other">Every %1$d hours</item>
+    </plurals>
+    <string name="settings_recommended">Recommended</string>
+    <string name="settings_frequency_note">Checks work on Wi-Fi and mobile data (about 1 KB each). Android may delay them a little to save battery. The status changes over days: checking more often doesn\'t make it faster.</string>
+    <string name="settings_section_notifications">Notifications</string>
+    <string name="settings_notify_all">Notify me of any change</string>
+    <string name="settings_notify_all_desc">If off, you\'ll only be notified when the permit is ready.</string>
+    <string name="settings_notifications_system">Notification permission</string>
+    <string name="settings_notifications_on">Allowed</string>
+    <string name="settings_notifications_off">Blocked. Tap to allow.</string>
+    <string name="settings_section_privacy">Privacy</string>
+    <string name="privacy_body">What is stored: the numbers you add, the names you give them and the check history. Everything stays on this phone; numbers and names are encrypted with a key kept in the Android Keystore. Android backups of this app are turned off.\n\nWhere it is sent: each check sends the number only to questure.poliziadistato.it, the public portal of the Polizia di Stato, over an encrypted connection (HTTPS).\n\nWhat does not exist: accounts, servers of ours, analytics, advertising.</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_license">Free software, licensed under the GNU GPL v3.0</string>
+    <string name="settings_licenses">Open-source licences</string>
+    <string name="settings_source">Source code</string>
+    <string name="settings_section_data">Data</string>
+    <string name="settings_delete_all">Delete all data</string>
+    <string name="settings_delete_all_title">Delete all data?</string>
+    <string name="settings_delete_all_body">All applications, their history and the settings will be removed from this phone. This cannot be undone.</string>
+    <string name="licenses_body" translatable="false">Pronto Soggiorno\nGNU General Public License v3.0\n\nAndroidX, Jetpack Compose, Material 3, Navigation, Room, DataStore, WorkManager\nApache License 2.0 · The Android Open Source Project\n\nKotlin, kotlinx.coroutines, kotlinx.serialization\nApache License 2.0 · JetBrains\n\nOkHttp, Okio\nApache License 2.0 · Square, Inc.\n\nInter (typeface)\nSIL Open Font License 1.1 · The Inter Project Authors\n\nMaterial Icons\nApache License 2.0 · Google</string>
+
+    <!-- Bienvenida -->
+    <string name="onb_welcome_title">Welcome to Pronto Soggiorno</string>
+    <string name="onb_welcome_body">Find out when your permesso di soggiorno is ready, without checking the portal every day.</string>
+    <string name="onb_independence_title">An independent app</string>
+    <string name="onb_privacy_title">Your data stays with you</string>
+    <string name="onb_privacy_body">No accounts, no servers, no analytics, no ads. Numbers are stored encrypted on this phone and sent only to the Polizia portal.</string>
+    <string name="onb_language_title">Choose your language</string>
+    <string name="onb_notifications_title">Notifications</string>
+    <string name="onb_notifications_body">Allow notifications so the app can tell you when your permit is ready. Notifications show only the name you choose, never the number.</string>
+    <string name="onb_notifications_allow">Allow notifications</string>
+    <string name="onb_notifications_granted">Notifications allowed.</string>
+    <string name="onb_notifications_denied">Without notifications you\'ll need to open the app to see the status. You can change this later in Settings.</string>
+    <string name="onb_start">Add my application</string>
+    <string name="onb_later">Later</string>
+    <string name="label_not_found_paused">Paused: not found</string>
+    <string name="detail_auto_not_found">Paused: number not found for 30 days</string>
+    <string name="detail_not_found_paused_title">Automatic checks paused</string>
+    <string name="detail_not_found_paused_body">The portal hasn\'t found this number for more than 30 days. Check that it is correct; if it isn\'t, delete it and add it again. You can still check by hand: if it appears, automatic checks restart on their own.</string>
+</resources>

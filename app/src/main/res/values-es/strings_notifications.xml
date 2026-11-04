@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_ready_name">Permiso listo</string>
+    <string name="channel_ready_description">Avisa cuando un permiso de residencia está listo para retirar.</string>
+    <string name="channel_updates_name">Cambios de estado</string>
+    <string name="channel_updates_description">Otros cambios en el estado publicado por el portal.</string>
+    <string name="notification_ready_title_alias">%1$s: permiso listo</string>
+    <string name="notification_ready_title">Permiso listo</string>
+    <string name="notification_ready_text">Listo para la entrega. Abre la app para ver dónde y cómo retirarlo.</string>
+    <string name="notification_changed_title_alias">%1$s: el estado cambió</string>
+    <string name="notification_changed_title">El estado cambió</string>
+    <string name="notification_changed_text">Abre la app para leer el texto publicado por el portal.</string>
+    <string name="notification_public_text">Novedades sobre una de tus solicitudes</string>
+    <string name="notification_notfound_title_alias">%1$s: número no encontrado</string>
+    <string name="notification_notfound_title">Número no encontrado</string>
+    <string name="notification_notfound_text">Lleva 30 días sin aparecer en el portal: la verificación automática está en pausa. Revisa el número.</string>
+</resources>

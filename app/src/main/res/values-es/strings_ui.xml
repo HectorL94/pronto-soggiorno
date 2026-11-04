@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Comunes -->
+    <string name="action_back">Atrás</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_close">Cerrar</string>
+    <string name="error_no_browser">No hay ninguna app para abrir el enlace.</string>
+    <string name="independence_long">Pronto Soggiorno es una app independiente, no afiliada a la Polizia di Stato ni al Ministero dell\'Interno. Lee la página pública de estado de questure.poliziadistato.it, la misma que puedes abrir en un navegador. La información oficial es siempre la que te dan el portal y la Questura.</string>
+
+    <!-- Estados -->
+    <string name="status_ready">Listo para retirar</string>
+    <string name="status_in_progress">En trámite</string>
+    <string name="status_not_found">No encontrado</string>
+    <string name="status_unknown">Respuesta no reconocida</string>
+    <string name="status_not_checked">Aún sin verificar</string>
+    <string name="status_ready_explain">El portal indica que tu permiso está listo para retirar.</string>
+    <string name="status_in_progress_explain">El portal indica que tu solicitud sigue en trámite. Te avisaremos cuando cambie.</string>
+    <string name="status_not_found_explain">El portal no encuentra este número. Comprueba que sea correcto: las solicitudes nuevas pueden tardar unos días en aparecer. Si no aparece en 30 días, la verificación automática se pausará.</string>
+    <string name="status_unknown_explain">El portal publicó un texto que la app no reconoce. Léelo abajo o abre el portal.</string>
+    <string name="status_not_checked_explain">El estado aparecerá aquí después de la primera verificación.</string>
+    <string name="label_paused">En pausa</string>
+    <string name="label_monitoring_done">Verificaciones detenidas</string>
+
+    <!-- Motivos de fallo -->
+    <string name="failure_timeout">el portal tardó demasiado en responder</string>
+    <string name="failure_no_connection">no hay conexión a internet</string>
+    <string name="failure_tls">no se pudo establecer una conexión segura</string>
+    <string name="failure_blocked">la conexión se bloqueó por seguridad</string>
+    <string name="failure_network">error de red</string>
+    <string name="failure_http">el portal respondió con un error (HTTP %1$s)</string>
+    <string name="failure_unexpected">el portal envió una respuesta inesperada</string>
+
+    <!-- Lista -->
+    <string name="list_add">Añadir solicitud</string>
+    <string name="list_empty_title">Aún no hay solicitudes</string>
+    <string name="list_empty_body">Añade el número de tu solicitud (pratica) o de tu recibo postal (assicurata) y la app verificará el estado por ti.</string>
+    <string name="list_unnamed">Solicitud sin nombre</string>
+    <string name="list_last_check">Última verificación: %1$s</string>
+    <string name="list_never_checked">Aún sin verificar</string>
+    <string name="list_last_attempt_failed">El último intento falló</string>
+    <string name="list_unreadable">Los datos de esta solicitud no se pueden leer en este teléfono</string>
+    <string name="banner_notifications_off_title">Las notificaciones están desactivadas</string>
+    <string name="banner_notifications_off_body">No recibirás aviso cuando tu permiso esté listo. Puedes abrir la app para ver el estado.</string>
+    <string name="banner_notifications_enable">Activar notificaciones</string>
+
+    <!-- Añadir -->
+    <string name="add_title">Añadir solicitud</string>
+    <string name="add_intro">Escribe el número de pratica o el número de la assicurata (recibo postal). La app reconoce cuál es.</string>
+    <string name="add_number_label">Número de pratica o assicurata</string>
+    <string name="add_number_hint">Pratica: 10 caracteres (2 cifras, 2 letras, 6 cifras). Assicurata: 12 cifras.</string>
+    <string name="add_detected_pratica">Número de pratica</string>
+    <string name="add_detected_assicurata">Número de assicurata (recibo postal)</string>
+    <string name="add_error_empty">Escribe el número.</string>
+    <string name="add_error_length">El número debe tener 10 caracteres (pratica) o 12 cifras (assicurata).</string>
+    <string name="add_error_format">El formato no es válido. Revisa el número en tu recibo.</string>
+    <string name="add_error_duplicate">Este número ya está en tu lista.</string>
+    <string name="add_alias_label">Nombre (opcional)</string>
+    <string name="add_alias_hint">P. ej. \"Yo\" o \"Mamá\". Se muestra en la app y en las notificaciones en lugar del número.</string>
+    <string name="add_where_title">¿Dónde encuentro el número?</string>
+    <string name="add_where_body">El número de pratica está en el recibo que te dio la Questura. El número de assicurata es el código de 12 cifras del recibo de Correos que te dieron al enviar el kit de la solicitud.</string>
+    <string name="add_privacy_note">El número se guarda cifrado en este teléfono y solo se envía a questure.poliziadistato.it para consultar el estado.</string>
+    <string name="add_consent">Añade solo números tuyos o de personas que te hayan pedido consultarlos.</string>
+    <string name="add_save">Añadir y verificar</string>
+
+    <!-- Detalle -->
+    <string name="detail_ready_title">¡Tu permiso está listo!</string>
+    <string name="detail_ready_sms">Espera el SMS que te dirá cuándo y dónde retirarlo</string>
+    <string name="detail_checking">Verificando…</string>
+    <string name="detail_check_now">Verificar ahora</string>
+    <string name="detail_pause">Pausar</string>
+    <string name="detail_resume">Reanudar</string>
+    <string name="detail_open_portal">Abrir portal</string>
+    <string name="detail_open_portal_hint">\"Abrir portal\" abre questure.poliziadistato.it en tu navegador, fuera de esta app.</string>
+    <string name="detail_rename">Cambiar nombre</string>
+    <string name="detail_show_number">Mostrar</string>
+    <string name="detail_hide_number">Ocultar</string>
+    <string name="detail_portal_text_label">Texto publicado en el portal</string>
+    <string name="detail_portal_text_note">Se muestra tal cual lo publica el portal, en italiano.</string>
+    <string name="detail_office_label">Dónde retirarlo</string>
+    <string name="detail_office_hours">Horario de la oficina</string>
+    <string name="detail_last_check">Última verificación</string>
+    <string name="detail_auto_checks">Verificación automática</string>
+    <string name="detail_auto_paused">En pausa</string>
+    <string name="detail_auto_done">Detenida: el permiso está listo</string>
+    <plurals name="detail_auto_every">
+        <item quantity="one">Aproximadamente cada %1$d hora</item>
+        <item quantity="many">Aproximadamente cada %1$d horas</item>
+        <item quantity="other">Aproximadamente cada %1$d horas</item>
+    </plurals>
+    <string name="detail_failed_banner">La última verificación falló: %1$s. Se volverá a intentar automáticamente.</string>
+    <string name="detail_too_soon">Acabas de verificar. Inténtalo de nuevo en un minuto.</string>
+    <string name="detail_check_unchanged">Verificado: sin cambios.</string>
+    <string name="detail_check_changed">Verificado: estado actualizado.</string>
+    <string name="detail_check_failed">La verificación falló.</string>
+    <string name="detail_delete_title">¿Eliminar esta solicitud?</string>
+    <string name="detail_delete_body">Su número y su historial se borrarán de este teléfono.</string>
+    <string name="detail_unreadable_title">No se puede leer esta solicitud</string>
+    <string name="detail_unreadable_body">Sus datos cifrados no se pueden abrir en este teléfono (por ejemplo, tras restaurarlo). Elimínala y vuelve a añadirla.</string>
+    <string name="history_title">Historial</string>
+    <string name="history_empty">Aún no hay verificaciones.</string>
+    <string name="history_no_changes">Aún no hay cambios de estado.</string>
+    <string name="history_show_all">Ver todas las verificaciones (%1$d)</string>
+    <string name="history_show_changes">Ver solo los cambios</string>
+    <string name="history_unchanged">Sin cambios</string>
+    <string name="history_failed">Falló: %1$s</string>
+    <string name="history_manual">manual</string>
+
+    <!-- Ajustes -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_language_system">Idioma del sistema</string>
+    <string name="settings_section_checks">Verificación automática</string>
+    <plurals name="settings_every_hours">
+        <item quantity="one">Cada %1$d hora</item>
+        <item quantity="many">Cada %1$d horas</item>
+        <item quantity="other">Cada %1$d horas</item>
+    </plurals>
+    <string name="settings_recommended">Recomendado</string>
+    <string name="settings_frequency_note">Funciona con Wi-Fi y con datos móviles (aprox. 1 KB por consulta). Android puede retrasarla un poco para ahorrar batería. El estado cambia en días: verificar más a menudo no lo acelera.</string>
+    <string name="settings_section_notifications">Notificaciones</string>
+    <string name="settings_notify_all">Avisarme de cualquier cambio</string>
+    <string name="settings_notify_all_desc">Si lo desactivas, solo te avisaremos cuando el permiso esté listo.</string>
+    <string name="settings_notifications_system">Permiso de notificaciones</string>
+    <string name="settings_notifications_on">Permitidas</string>
+    <string name="settings_notifications_off">Bloqueadas. Toca para permitirlas.</string>
+    <string name="settings_section_privacy">Privacidad</string>
+    <string name="privacy_body">Qué se guarda: los números que añades, los nombres que les pones y el historial de verificaciones. Todo queda en este teléfono; números y nombres se cifran con una clave guardada en el Keystore de Android. Las copias de seguridad de Android están desactivadas para esta app.\n\nAdónde se envía: cada verificación envía el número solo a questure.poliziadistato.it, el portal público de la Polizia di Stato, con conexión cifrada (HTTPS).\n\nLo que no existe: cuentas, servidores propios, analíticas, publicidad.</string>
+    <string name="settings_section_about">Acerca de</string>
+    <string name="settings_version">Versión %1$s</string>
+    <string name="settings_license">Software libre con licencia GNU GPL v3.0</string>
+    <string name="settings_licenses">Licencias de código abierto</string>
+    <string name="settings_source">Código fuente</string>
+    <string name="settings_section_data">Datos</string>
+    <string name="settings_delete_all">Borrar todos los datos</string>
+    <string name="settings_delete_all_title">¿Borrar todos los datos?</string>
+    <string name="settings_delete_all_body">Se borrarán de este teléfono todas las solicitudes, su historial y los ajustes. No se puede deshacer.</string>
+
+    <!-- Bienvenida -->
+    <string name="onb_welcome_title">Bienvenido a Pronto Soggiorno</string>
+    <string name="onb_welcome_body">Entérate de cuándo está listo tu permesso di soggiorno sin consultar el portal todos los días.</string>
+    <string name="onb_independence_title">Una app independiente</string>
+    <string name="onb_privacy_title">Tus datos se quedan contigo</string>
+    <string name="onb_privacy_body">Sin cuentas, sin servidores, sin analíticas, sin anuncios. Los números se guardan cifrados en este teléfono y solo se envían al portal de la Polizia.</string>
+    <string name="onb_language_title">Elige tu idioma</string>
+    <string name="onb_notifications_title">Notificaciones</string>
+    <string name="onb_notifications_body">Permite las notificaciones para que la app te avise cuando tu permiso esté listo. Las notificaciones solo muestran el nombre que elijas, nunca el número.</string>
+    <string name="onb_notifications_allow">Permitir notificaciones</string>
+    <string name="onb_notifications_granted">Notificaciones permitidas.</string>
+    <string name="onb_notifications_denied">Sin notificaciones tendrás que abrir la app para ver el estado. Puedes cambiarlo después en Ajustes.</string>
+    <string name="onb_start">Añadir mi solicitud</string>
+    <string name="onb_later">Más tarde</string>
+    <string name="label_not_found_paused">En pausa: no encontrada</string>
+    <string name="detail_auto_not_found">En pausa: número no encontrado en 30 días</string>
+    <string name="detail_not_found_paused_title">Verificación automática en pausa</string>
+    <string name="detail_not_found_paused_body">El portal no encuentra este número desde hace más de 30 días. Comprueba que sea correcto; si no lo es, elimínala y vuelve a añadirla. Puedes seguir verificando a mano: si aparece, la verificación automática se reactiva sola.</string>
+</resources>

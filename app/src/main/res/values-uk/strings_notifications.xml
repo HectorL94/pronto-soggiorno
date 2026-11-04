@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_ready_name">Дозвіл готовий</string>
+    <string name="channel_ready_description">Сповіщає, коли посвідка на проживання готова до отримання.</string>
+    <string name="channel_updates_name">Зміни статусу</string>
+    <string name="channel_updates_description">Інші зміни статусу, опублікованого на порталі.</string>
+    <string name="notification_ready_title_alias">%1$s: дозвіл готовий</string>
+    <string name="notification_ready_title">Дозвіл готовий</string>
+    <string name="notification_ready_text">Готово до видачі. Відкрийте застосунок, щоб дізнатися, де і як його отримати.</string>
+    <string name="notification_changed_title_alias">%1$s: статус змінився</string>
+    <string name="notification_changed_title">Статус змінився</string>
+    <string name="notification_changed_text">Відкрийте застосунок, щоб прочитати текст, опублікований на порталі.</string>
+    <string name="notification_public_text">Новини щодо однієї з ваших заяв</string>
+    <string name="notification_notfound_title_alias">%1$s: номер не знайдено</string>
+    <string name="notification_notfound_title">Номер не знайдено</string>
+    <string name="notification_notfound_text">Номера немає на порталі вже 30 днів: автоматичну перевірку призупинено. Перевірте номер.</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_ready_name">التصريح جاهز</string>
+    <string name="channel_ready_description">ينبّهك عندما يصبح تصريح الإقامة جاهزًا للاستلام.</string>
+    <string name="channel_updates_name">تغييرات الحالة</string>
+    <string name="channel_updates_description">تغييرات أخرى في الحالة المنشورة على البوابة.</string>
+    <string name="notification_ready_title_alias">%1$s: التصريح جاهز</string>
+    <string name="notification_ready_title">التصريح جاهز</string>
+    <string name="notification_ready_text">جاهز للتسليم. افتح التطبيق لمعرفة مكان الاستلام وطريقته.</string>
+    <string name="notification_changed_title_alias">%1$s: تغيّرت الحالة</string>
+    <string name="notification_changed_title">تغيّرت الحالة</string>
+    <string name="notification_changed_text">افتح التطبيق لقراءة النص المنشور على البوابة.</string>
+    <string name="notification_public_text">مستجدات بشأن أحد طلباتك</string>
+    <string name="notification_notfound_title_alias">%1$s: الرقم غير موجود</string>
+    <string name="notification_notfound_title">الرقم غير موجود</string>
+    <string name="notification_notfound_text">لم يظهر على الموقع منذ 30 يومًا: التحقق التلقائي متوقف مؤقتًا. تحقّق من الرقم.</string>
+</resources>

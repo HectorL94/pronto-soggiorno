@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema mínimo de la ventana; los colores reales los pone Compose (ui/theme). -->
+    <style name="Theme.ProntoSoggiorno" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>

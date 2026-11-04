@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_ready_name">Titre prêt</string>
+    <string name="channel_ready_description">Vous avertit quand un titre de séjour est prêt à être retiré.</string>
+    <string name="channel_updates_name">Changements de statut</string>
+    <string name="channel_updates_description">Autres changements du statut publié par le portail.</string>
+    <string name="notification_ready_title_alias">%1$s : titre prêt</string>
+    <string name="notification_ready_title">Titre prêt</string>
+    <string name="notification_ready_text">Prêt à être remis. Ouvrez l\'application pour voir où et comment le retirer.</string>
+    <string name="notification_changed_title_alias">%1$s : statut modifié</string>
+    <string name="notification_changed_title">Statut modifié</string>
+    <string name="notification_changed_text">Ouvrez l\'application pour lire le texte publié par le portail.</string>
+    <string name="notification_public_text">Nouvelles concernant l\'une de vos demandes</string>
+    <string name="notification_notfound_title_alias">%1$s : numéro introuvable</string>
+    <string name="notification_notfound_title">Numéro introuvable</string>
+    <string name="notification_notfound_text">Introuvable sur le portail depuis 30 jours : la vérification automatique est en pause. Vérifiez le numéro.</string>
+</resources>

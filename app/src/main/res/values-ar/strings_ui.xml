@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Los términos italianos (pratica, assicurata, Questura, permesso di soggiorno) se dejan tal cual:
+     son los que aparecen en los documentos y en el portal. -->
+<resources>
+    <!-- Comunes -->
+    <string name="action_back">رجوع</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_continue">متابعة</string>
+    <string name="action_close">إغلاق</string>
+    <string name="error_no_browser">لا يوجد تطبيق لفتح الرابط.</string>
+    <string name="independence_long">Pronto Soggiorno تطبيق مستقل، غير تابع لـ Polizia di Stato ولا لـ Ministero dell\'Interno. يقرأ صفحة الحالة العامة على questure.poliziadistato.it، وهي نفس الصفحة التي يمكنك فتحها في المتصفح. المعلومة الرسمية هي دائمًا ما يقدّمه الموقع والـ Questura.</string>
+
+    <!-- Estados -->
+    <string name="status_ready">جاهز للاستلام</string>
+    <string name="status_in_progress">قيد المعالجة</string>
+    <string name="status_not_found">غير موجود</string>
+    <string name="status_unknown">ردّ غير معروف</string>
+    <string name="status_not_checked">لم يتم التحقق بعد</string>
+    <string name="status_ready_explain">يشير الموقع إلى أن تصريح الإقامة الخاص بك جاهز للاستلام.</string>
+    <string name="status_in_progress_explain">يشير الموقع إلى أن طلبك لا يزال قيد المعالجة. سنُعلمك عندما يتغيّر.</string>
+    <string name="status_not_found_explain">لا يعثر الموقع على هذا الرقم. تأكّد من صحته: قد تستغرق الطلبات الجديدة بضعة أيام لتظهر. إذا لم يظهر خلال 30 يومًا، سيتوقف التحقق التلقائي مؤقتًا.</string>
+    <string name="status_unknown_explain">نشر الموقع نصًّا لا يتعرّف عليه التطبيق. اقرأه أدناه أو افتح الموقع.</string>
+    <string name="status_not_checked_explain">ستظهر الحالة هنا بعد أول عملية تحقق.</string>
+    <string name="label_paused">متوقف مؤقتًا</string>
+    <string name="label_monitoring_done">توقفت عمليات التحقق</string>
+
+    <!-- Motivos de fallo -->
+    <string name="failure_timeout">استغرق الموقع وقتًا طويلًا للرد</string>
+    <string name="failure_no_connection">لا يوجد اتصال بالإنترنت</string>
+    <string name="failure_tls">تعذّر إنشاء اتصال آمن</string>
+    <string name="failure_blocked">تم حظر الاتصال لأسباب أمنية</string>
+    <string name="failure_network">خطأ في الشبكة</string>
+    <string name="failure_http">ردّ الموقع بخطأ (HTTP %1$s)</string>
+    <string name="failure_unexpected">أرسل الموقع ردًّا غير متوقع</string>
+
+    <!-- Lista -->
+    <string name="list_add">إضافة طلب</string>
+    <string name="list_empty_title">لا توجد طلبات بعد</string>
+    <string name="list_empty_body">أضف رقم طلبك (pratica) أو رقم الإيصال البريدي (assicurata) وسيتحقق التطبيق من الحالة نيابةً عنك.</string>
+    <string name="list_unnamed">طلب بدون اسم</string>
+    <string name="list_last_check">آخر تحقق: %1$s</string>
+    <string name="list_never_checked">لم يتم التحقق بعد</string>
+    <string name="list_last_attempt_failed">فشلت المحاولة الأخيرة</string>
+    <string name="list_unreadable">لا يمكن قراءة بيانات هذا الطلب على هذا الهاتف</string>
+    <string name="banner_notifications_off_title">الإشعارات متوقفة</string>
+    <string name="banner_notifications_off_body">لن يصلك تنبيه عندما يصبح تصريحك جاهزًا. يمكنك دائمًا فتح التطبيق لرؤية الحالة.</string>
+    <string name="banner_notifications_enable">تفعيل الإشعارات</string>
+
+    <!-- Añadir -->
+    <string name="add_title">إضافة طلب</string>
+    <string name="add_intro">أدخل رقم الـ pratica أو رقم الـ assicurata (الإيصال البريدي). يتعرّف التطبيق على نوعه تلقائيًا.</string>
+    <string name="add_number_label">رقم pratica أو assicurata</string>
+    <string name="add_number_hint">Pratica: ‏10 خانات (رقمان، حرفان، 6 أرقام). Assicurata: ‏12 رقمًا.</string>
+    <string name="add_detected_pratica">رقم الـ pratica</string>
+    <string name="add_detected_assicurata">رقم الـ assicurata (الإيصال البريدي)</string>
+    <string name="add_error_empty">أدخل الرقم.</string>
+    <string name="add_error_length">يجب أن يتكوّن الرقم من 10 خانات (pratica) أو 12 رقمًا (assicurata).</string>
+    <string name="add_error_format">الصيغة غير صحيحة. تحقّق من الرقم على الإيصال.</string>
+    <string name="add_error_duplicate">هذا الرقم موجود بالفعل في قائمتك.</string>
+    <string name="add_alias_label">الاسم (اختياري)</string>
+    <string name="add_alias_hint">مثلًا «أنا» أو «أمي». يظهر في التطبيق وفي الإشعارات بدلًا من الرقم.</string>
+    <string name="add_where_title">أين أجد الرقم؟</string>
+    <string name="add_where_body">رقم الـ pratica موجود على الإيصال الذي سلّمتك إياه الـ Questura. رقم الـ assicurata هو الرمز المكوّن من 12 رقمًا على إيصال البريد الإيطالي الذي حصلت عليه عند إرسال ملف الطلب.</string>
+    <string name="add_privacy_note">يُحفظ الرقم مشفّرًا على هذا الهاتف ولا يُرسل إلا إلى questure.poliziadistato.it للتحقق من الحالة.</string>
+    <string name="add_consent">أضف فقط أرقامك أو أرقام أشخاص طلبوا منك التحقق منها.</string>
+    <string name="add_save">إضافة وتحقق</string>
+
+    <!-- Detalle -->
+    <string name="detail_ready_title">تصريحك جاهز!</string>
+    <string name="detail_ready_sms">انتظر الرسالة النصية التي ستخبرك متى وأين تستلمه</string>
+    <string name="detail_checking">جارٍ التحقق…</string>
+    <string name="detail_check_now">تحقّق الآن</string>
+    <string name="detail_pause">إيقاف مؤقت</string>
+    <string name="detail_resume">استئناف</string>
+    <string name="detail_open_portal">فتح الموقع</string>
+    <string name="detail_open_portal_hint">«فتح الموقع» يفتح questure.poliziadistato.it في متصفحك، خارج هذا التطبيق.</string>
+    <string name="detail_rename">إعادة تسمية</string>
+    <string name="detail_show_number">إظهار</string>
+    <string name="detail_hide_number">إخفاء</string>
+    <string name="detail_portal_text_label">النص المنشور على الموقع</string>
+    <string name="detail_portal_text_note">يُعرض كما ينشره الموقع تمامًا، باللغة الإيطالية.</string>
+    <string name="detail_office_label">مكان الاستلام</string>
+    <string name="detail_office_hours">مواعيد عمل المكتب</string>
+    <string name="detail_last_check">آخر تحقق</string>
+    <string name="detail_auto_checks">التحقق التلقائي</string>
+    <string name="detail_auto_paused">متوقف مؤقتًا</string>
+    <string name="detail_auto_done">متوقف: التصريح جاهز</string>
+    <plurals name="detail_auto_every">
+        <item quantity="zero">تقريبًا كل %1$d ساعة</item>
+        <item quantity="one">تقريبًا كل %1$d ساعة</item>
+        <item quantity="two">تقريبًا كل %1$d ساعة</item>
+        <item quantity="few">تقريبًا كل %1$d ساعات</item>
+        <item quantity="many">تقريبًا كل %1$d ساعة</item>
+        <item quantity="other">تقريبًا كل %1$d ساعة</item>
+    </plurals>
+    <string name="detail_failed_banner">فشل آخر تحقق: %1$s. ستُعاد المحاولة تلقائيًا.</string>
+    <string name="detail_too_soon">لقد تحقّقت للتو. حاول مجددًا بعد دقيقة.</string>
+    <string name="detail_check_unchanged">تم التحقق: لا تغييرات.</string>
+    <string name="detail_check_changed">تم التحقق: تم تحديث الحالة.</string>
+    <string name="detail_check_failed">فشل التحقق.</string>
+    <string name="detail_delete_title">حذف هذا الطلب؟</string>
+    <string name="detail_delete_body">سيُحذف رقمه وسجلّه من هذا الهاتف.</string>
+    <string name="detail_unreadable_title">تعذّرت قراءة هذا الطلب</string>
+    <string name="detail_unreadable_body">لا يمكن فتح بياناته المشفّرة على هذا الهاتف (مثلًا بعد استعادة الهاتف). احذفه ثم أضفه من جديد.</string>
+    <string name="history_title">السجل</string>
+    <string name="history_empty">لا توجد عمليات تحقق بعد.</string>
+    <string name="history_no_changes">لا توجد تغييرات في الحالة بعد.</string>
+    <string name="history_show_all">عرض كل عمليات التحقق (%1$d)</string>
+    <string name="history_show_changes">عرض التغييرات فقط</string>
+    <string name="history_unchanged">لا تغييرات</string>
+    <string name="history_failed">فشل: %1$s</string>
+    <string name="history_manual">يدوي</string>
+
+    <!-- Ajustes -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_language_system">لغة النظام</string>
+    <string name="settings_section_checks">التحقق التلقائي</string>
+    <plurals name="settings_every_hours">
+        <item quantity="zero">كل %1$d ساعة</item>
+        <item quantity="one">كل %1$d ساعة</item>
+        <item quantity="two">كل %1$d ساعة</item>
+        <item quantity="few">كل %1$d ساعات</item>
+        <item quantity="many">كل %1$d ساعة</item>
+        <item quantity="other">كل %1$d ساعة</item>
+    </plurals>
+    <string name="settings_recommended">موصى به</string>
+    <string name="settings_frequency_note">يعمل عبر Wi-Fi وبيانات الجوال (حوالي 1 كيلوبايت لكل تحقق). قد يؤخره Android قليلًا لتوفير البطارية. تتغيّر الحالة خلال أيام: التحقق بشكل أكثر تكرارًا لا يسرّعها.</string>
+    <string name="settings_section_notifications">الإشعارات</string>
+    <string name="settings_notify_all">أعلمني بأي تغيير</string>
+    <string name="settings_notify_all_desc">عند إيقافه، لن يصلك تنبيه إلا عندما يصبح التصريح جاهزًا.</string>
+    <string name="settings_notifications_system">إذن الإشعارات</string>
+    <string name="settings_notifications_on">مسموح بها</string>
+    <string name="settings_notifications_off">محظورة. اضغط للسماح بها.</string>
+    <string name="settings_section_privacy">الخصوصية</string>
+    <string name="privacy_body">ما يُحفظ: الأرقام التي تضيفها والأسماء التي تعطيها لها وسجل عمليات التحقق. يبقى كل شيء على هذا الهاتف؛ وتُشفَّر الأرقام والأسماء بمفتاح محفوظ في Android Keystore. النسخ الاحتياطي في Android معطّل لهذا التطبيق.\n\nإلى أين يُرسل: كل عملية تحقق ترسل الرقم فقط إلى questure.poliziadistato.it، الموقع العام لـ Polizia di Stato، عبر اتصال مشفّر (HTTPS).\n\nما لا يوجد: حسابات، خوادم خاصة بنا، إحصاءات، إعلانات.</string>
+    <string name="settings_section_about">حول التطبيق</string>
+    <string name="settings_version">الإصدار %1$s</string>
+    <string name="settings_license">برنامج حر مرخّص بموجب GNU GPL v3.0</string>
+    <string name="settings_licenses">تراخيص المصادر المفتوحة</string>
+    <string name="settings_source">الشيفرة المصدرية</string>
+    <string name="settings_section_data">البيانات</string>
+    <string name="settings_delete_all">حذف كل البيانات</string>
+    <string name="settings_delete_all_title">حذف كل البيانات؟</string>
+    <string name="settings_delete_all_body">ستُحذف من هذا الهاتف جميع الطلبات وسجلّها والإعدادات. لا يمكن التراجع عن ذلك.</string>
+
+    <!-- Bienvenida -->
+    <string name="onb_welcome_title">مرحبًا بك في Pronto Soggiorno</string>
+    <string name="onb_welcome_body">اعرف متى يصبح الـ permesso di soggiorno الخاص بك جاهزًا، دون الحاجة إلى مراجعة الموقع كل يوم.</string>
+    <string name="onb_independence_title">تطبيق مستقل</string>
+    <string name="onb_privacy_title">بياناتك تبقى معك</string>
+    <string name="onb_privacy_body">بلا حسابات، بلا خوادم، بلا إحصاءات، بلا إعلانات. تُحفظ الأرقام مشفّرة على هذا الهاتف ولا تُرسل إلا إلى موقع الـ Polizia.</string>
+    <string name="onb_language_title">اختر لغتك</string>
+    <string name="onb_notifications_title">الإشعارات</string>
+    <string name="onb_notifications_body">اسمح بالإشعارات ليخبرك التطبيق عندما يصبح تصريحك جاهزًا. تُظهر الإشعارات الاسم الذي تختاره فقط، وليس الرقم أبدًا.</string>
+    <string name="onb_notifications_allow">السماح بالإشعارات</string>
+    <string name="onb_notifications_granted">الإشعارات مسموح بها.</string>
+    <string name="onb_notifications_denied">بدون الإشعارات عليك فتح التطبيق لرؤية الحالة. يمكنك تغيير ذلك لاحقًا من الإعدادات.</string>
+    <string name="onb_start">إضافة طلبي</string>
+    <string name="onb_later">لاحقًا</string>
+    <string name="label_not_found_paused">متوقف مؤقتًا: غير موجود</string>
+    <string name="detail_auto_not_found">متوقف مؤقتًا: الرقم غير موجود منذ 30 يومًا</string>
+    <string name="detail_not_found_paused_title">التحقق التلقائي متوقف مؤقتًا</string>
+    <string name="detail_not_found_paused_body">لا يعثر الموقع على هذا الرقم منذ أكثر من 30 يومًا. تأكّد من صحته؛ وإن لم يكن صحيحًا فاحذف الطلب وأضفه من جديد. لا يزال بإمكانك التحقق يدويًا: إذا ظهر، يُستأنف التحقق التلقائي من تلقاء نفسه.</string>
+</resources>

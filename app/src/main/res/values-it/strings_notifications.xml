@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_ready_name">Permesso pronto</string>
+    <string name="channel_ready_description">Avvisa quando un permesso di soggiorno è pronto per la consegna.</string>
+    <string name="channel_updates_name">Cambi di stato</string>
+    <string name="channel_updates_description">Altri cambiamenti dello stato pubblicato dal portale.</string>
+    <string name="notification_ready_title_alias">%1$s: permesso pronto</string>
+    <string name="notification_ready_title">Permesso pronto</string>
+    <string name="notification_ready_text">Pronto per la consegna. Apri l\'app per vedere dove e come ritirarlo.</string>
+    <string name="notification_changed_title_alias">%1$s: stato cambiato</string>
+    <string name="notification_changed_title">Stato cambiato</string>
+    <string name="notification_changed_text">Apri l\'app per leggere il testo pubblicato dal portale.</string>
+    <string name="notification_public_text">Novità su una delle tue pratiche</string>
+    <string name="notification_notfound_title_alias">%1$s: numero non trovato</string>
+    <string name="notification_notfound_title">Numero non trovato</string>
+    <string name="notification_notfound_text">Da 30 giorni non compare sul portale: la verifica automatica è in pausa. Controlla il numero.</string>
+</resources>

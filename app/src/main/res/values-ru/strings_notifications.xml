@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_ready_name">Разрешение готово</string>
+    <string name="channel_ready_description">Уведомляет, когда вид на жительство готов к получению.</string>
+    <string name="channel_updates_name">Изменения статуса</string>
+    <string name="channel_updates_description">Другие изменения статуса, опубликованного на портале.</string>
+    <string name="notification_ready_title_alias">%1$s: разрешение готово</string>
+    <string name="notification_ready_title">Разрешение готово</string>
+    <string name="notification_ready_text">Готово к выдаче. Откройте приложение, чтобы узнать, где и как его получить.</string>
+    <string name="notification_changed_title_alias">%1$s: статус изменился</string>
+    <string name="notification_changed_title">Статус изменился</string>
+    <string name="notification_changed_text">Откройте приложение, чтобы прочитать текст, опубликованный на портале.</string>
+    <string name="notification_public_text">Новости по одному из ваших заявлений</string>
+    <string name="notification_notfound_title_alias">%1$s: номер не найден</string>
+    <string name="notification_notfound_title">Номер не найден</string>
+    <string name="notification_notfound_text">Номера нет на портале уже 30 дней: автоматическая проверка приостановлена. Проверьте номер.</string>
+</resources>
