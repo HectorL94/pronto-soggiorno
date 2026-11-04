@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
@@ -10,6 +12,17 @@ room {
     // Esquemas versionados de la base de datos: necesarios para migraciones seguras.
     schemaDirectory("$projectDir/schemas")
 }
+
+/**
+ * Firma de publicación. Los datos de la clave están en `keystore.properties` (raíz del proyecto),
+ * que NUNCA se sube al repositorio (.gitignore). Plantilla: `keystore.properties.example`.
+ * Si el archivo no existe (p. ej. en F-Droid, que firma con su propia clave), el APK de
+ * publicación se genera sin firmar.
+ */
+val releaseSigning: Properties? = providers
+    .fileContents(rootProject.layout.projectDirectory.file("keystore.properties"))
+    .asText.orNull
+    ?.let { text -> Properties().apply { load(text.reader()) } }
 
 android {
     namespace = "app.prontosoggiorno"
@@ -25,6 +38,17 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        if (releaseSigning != null) {
+            create("release") {
+                storeFile = file(releaseSigning.getProperty("storeFile"))
+                storePassword = releaseSigning.getProperty("storePassword")
+                keyAlias = releaseSigning.getProperty("keyAlias")
+                keyPassword = releaseSigning.getProperty("keyPassword")
+            }
+        }
+    }
+
     buildTypes {
         debug {
             // Pseudo-idiomas para probar textos largos (en-XA) y derecha a izquierda (ar-XB).
@@ -34,6 +58,7 @@ android {
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            signingConfig = signingConfigs.findByName("release")
         }
     }
 

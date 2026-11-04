@@ -38,6 +38,12 @@ $env:PORTAL_SMOKE_NUMBER = "<your number>"; ./gradlew :core:test --tests "*LiveP
 The classifier only knows texts verified against real responses. To add one, see
 `core/src/test/resources/fixtures/README.md` — never query numbers that are not yours.
 
+## Release signing
+Release builds are signed only if a `keystore.properties` file exists in the project root
+(copy `keystore.properties.example`). That file and the `.jks` keystore are git-ignored and
+must never be committed. Without it, `./gradlew :app:assembleRelease` produces an unsigned APK
+(this is what F-Droid expects: it signs with its own key).
+
 ## Translations
 The app is available in Italian, English, Spanish, French, Arabic, Russian and Ukrainian
 (`app/src/main/res/values-xx/`). Rules for translators:
