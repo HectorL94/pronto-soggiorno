@@ -29,8 +29,10 @@ android {
     compileSdk = 37
 
     defaultConfig {
-        // Antes de publicar se puede cambiar (p. ej. io.github.<usuario>.prontosoggiorno).
-        applicationId = "app.prontosoggiorno"
+        // Identidad pública de la app (Google Play, F-Droid). NO cambiar después de publicar:
+        // sería otra app distinta para Android y para las tiendas.
+        // El paquete del código (`namespace`) es interno y puede ser distinto.
+        applicationId = "io.github.hectorl94.prontosoggiorno"
         minSdk = 26
         targetSdk = 37
         versionCode = 1

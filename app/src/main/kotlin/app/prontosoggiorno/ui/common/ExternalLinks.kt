@@ -16,11 +16,8 @@ import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
  */
 object ExternalLinks {
 
-    /**
-     * Repositorio público del código. Se rellenará al publicar el proyecto; mientras sea null,
-     * la opción "Código fuente" no aparece.
-     */
-    val SOURCE_CODE_URL: String? = null
+    /** Repositorio público del código (se abre en el navegador solo si el usuario lo toca). */
+    val SOURCE_CODE_URL: String? = "https://github.com/HectorL94/pronto-soggiorno"
 
     /** Abre una dirección del portal. Devuelve false si no es del portal o no hay navegador. */
     fun openPortal(context: Context, url: HttpUrl): Boolean {
