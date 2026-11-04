@@ -160,4 +160,5 @@
     <string name="detail_auto_not_found">Paused: number not found for 30 days</string>
     <string name="detail_not_found_paused_title">Automatic checks paused</string>
     <string name="detail_not_found_paused_body">The portal hasn\'t found this number for more than 30 days. Check that it is correct; if it isn\'t, delete it and add it again. You can still check by hand: if it appears, automatic checks restart on their own.</string>
+    <string name="settings_privacy_policy">Full privacy policy</string>
 </resources>

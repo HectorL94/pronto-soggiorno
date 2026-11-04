@@ -14,6 +14,8 @@ Independent, open-source Android app that checks the status of an Italian reside
 - Application numbers stay on the device (encrypted with the Android Keystore) and are never logged.
 - Only your own numbers: the app is not a tool to look up other people's applications.
 
+Full privacy policy: [English](PRIVACY.md) · [Italiano](PRIVACY.it.md) · [Español](PRIVACY.es.md).
+
 ## Project structure
 | Module | Content |
 |---|---|

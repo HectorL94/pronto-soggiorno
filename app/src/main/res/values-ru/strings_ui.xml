@@ -158,4 +158,5 @@
     <string name="detail_auto_not_found">На паузе: номер не найден за 30 дней</string>
     <string name="detail_not_found_paused_title">Автоматическая проверка приостановлена</string>
     <string name="detail_not_found_paused_body">Портал не находит этот номер больше 30 дней. Проверьте, что он верный; если нет — удалите заявление и добавьте заново. Проверять вручную по-прежнему можно: если номер появится, автоматическая проверка возобновится сама.</string>
+    <string name="settings_privacy_policy">Полная политика конфиденциальности</string>
 </resources>

@@ -164,4 +164,5 @@
     <string name="detail_auto_not_found">متوقف مؤقتًا: الرقم غير موجود منذ 30 يومًا</string>
     <string name="detail_not_found_paused_title">التحقق التلقائي متوقف مؤقتًا</string>
     <string name="detail_not_found_paused_body">لا يعثر الموقع على هذا الرقم منذ أكثر من 30 يومًا. تأكّد من صحته؛ وإن لم يكن صحيحًا فاحذف الطلب وأضفه من جديد. لا يزال بإمكانك التحقق يدويًا: إذا ظهر، يُستأنف التحقق التلقائي من تلقاء نفسه.</string>
+    <string name="settings_privacy_policy">سياسة الخصوصية الكاملة</string>
 </resources>

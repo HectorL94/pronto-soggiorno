@@ -12,12 +12,26 @@ import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
 
 /**
  * Enlaces que el USUARIO decide abrir. Se abren en su navegador: la app no se conecta a ellos.
- * Solo se permiten direcciones del portal de la Polizia (y el código fuente, si está configurado).
+ * Solo se permiten direcciones del portal de la Polizia y las del propio repositorio
+ * (código fuente y política de privacidad).
  */
 object ExternalLinks {
 
     /** Repositorio público del código (se abre en el navegador solo si el usuario lo toca). */
     val SOURCE_CODE_URL: String? = "https://github.com/HectorL94/pronto-soggiorno"
+
+    /** Política de privacidad publicada en el repositorio, en el idioma de la app si existe. */
+    fun privacyPolicyUrl(language: String): String {
+        val file = when (language) {
+            "it" -> "PRIVACY.it.md"
+            "es" -> "PRIVACY.es.md"
+            else -> "PRIVACY.md"
+        }
+        return "$SOURCE_CODE_URL/blob/main/$file"
+    }
+
+    fun openPrivacyPolicy(context: Context, language: String): Boolean =
+        view(context, privacyPolicyUrl(language).toUri())
 
     /** Abre una dirección del portal. Devuelve false si no es del portal o no hay navegador. */
     fun openPortal(context: Context, url: HttpUrl): Boolean {

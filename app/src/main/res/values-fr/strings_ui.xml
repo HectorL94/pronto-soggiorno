@@ -156,4 +156,5 @@
     <string name="detail_auto_not_found">En pause : numéro introuvable depuis 30 jours</string>
     <string name="detail_not_found_paused_title">Vérification automatique en pause</string>
     <string name="detail_not_found_paused_body">Le portail ne trouve pas ce numéro depuis plus de 30 jours. Vérifiez qu\'il est correct ; sinon, supprimez la demande et ajoutez-la de nouveau. Vous pouvez toujours vérifier manuellement : s\'il apparaît, la vérification automatique reprend toute seule.</string>
+    <string name="settings_privacy_policy">Politique de confidentialité complète</string>
 </resources>

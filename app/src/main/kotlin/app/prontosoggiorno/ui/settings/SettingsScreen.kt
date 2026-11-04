@@ -47,6 +47,7 @@ import app.prontosoggiorno.ui.common.ExternalLinks
 import app.prontosoggiorno.ui.common.LanguageOptions
 import app.prontosoggiorno.ui.common.RadioRow
 import app.prontosoggiorno.ui.common.SectionCard
+import app.prontosoggiorno.ui.common.currentLocale
 import app.prontosoggiorno.ui.common.rememberNotificationPermissionState
 
 @Composable
@@ -58,6 +59,7 @@ fun SettingsRoute(onBack: () -> Unit, onAllDataDeleted: () -> Unit) {
     }
     val settings by viewModel.state.collectAsStateWithLifecycle()
     val notifications = rememberNotificationPermissionState()
+    val locale = currentLocale()
     val current = settings ?: return
 
     SettingsScreen(
@@ -70,6 +72,7 @@ fun SettingsRoute(onBack: () -> Unit, onAllDataDeleted: () -> Unit) {
         onNotifyAllChanges = { viewModel.setNotifyAllChanges(it) },
         onNotificationSettings = notifications::request,
         onSourceCode = if (ExternalLinks.SOURCE_CODE_URL != null) ({ ExternalLinks.openSourceCode(context) }) else null,
+        onPrivacyPolicy = { ExternalLinks.openPrivacyPolicy(context, locale.language) },
         onDeleteAll = { viewModel.deleteAll(onAllDataDeleted) },
     )
 }
@@ -86,6 +89,7 @@ fun SettingsScreen(
     onNotifyAllChanges: (Boolean) -> Unit,
     onNotificationSettings: () -> Unit,
     onSourceCode: (() -> Unit)?,
+    onPrivacyPolicy: () -> Unit,
     onDeleteAll: () -> Unit,
 ) {
     var languageDialog by rememberSaveable { mutableStateOf(false) }
@@ -163,6 +167,11 @@ fun SettingsScreen(
                 SectionCard {
                     SectionTitle(R.string.settings_section_privacy)
                     Text(stringResource(R.string.privacy_body), style = MaterialTheme.typography.bodyMedium)
+                    SettingRow(
+                        icon = R.drawable.ic_open_in_new,
+                        title = stringResource(R.string.settings_privacy_policy),
+                        onClick = onPrivacyPolicy,
+                    )
                 }
             }
             item {

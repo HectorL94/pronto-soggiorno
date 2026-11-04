@@ -156,4 +156,5 @@
     <string name="detail_auto_not_found">In pausa: numero non trovato da 30 giorni</string>
     <string name="detail_not_found_paused_title">Verifica automatica in pausa</string>
     <string name="detail_not_found_paused_body">Il portale non trova questo numero da più di 30 giorni. Controlla che sia corretto; se non lo è, eliminala e aggiungila di nuovo. Puoi comunque verificare a mano: se compare, la verifica automatica riparte da sola.</string>
+    <string name="settings_privacy_policy">Informativa sulla privacy completa</string>
 </resources>
