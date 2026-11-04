@@ -46,6 +46,12 @@ Release builds are signed only if a `keystore.properties` file exists in the pro
 must never be committed. Without it, `./gradlew :app:assembleRelease` produces an unsigned APK
 (this is what F-Droid expects: it signs with its own key).
 
+## Store listing
+Texts, icon, feature graphic and screenshots for Google Play and F-Droid live in
+`fastlane/metadata/android/` (standard fastlane/F-Droid layout). They are regenerated with
+`tools/store_graphics.py` and `tools/screenshots.py` (emulator, fictitious data, network off).
+Play Console answers: [docs/google-play.md](docs/google-play.md) (in Spanish).
+
 ## Translations
 The app is available in Italian, English, Spanish, French, Arabic, Russian and Ukrainian
 (`app/src/main/res/values-xx/`). Rules for translators:

@@ -89,14 +89,21 @@ Resultado que verán los usuarios en la ficha: "Comparte: otra información" y "
 información", "Datos cifrados en tránsito", "Puedes solicitar que se eliminen los datos".
 Es exactamente lo que explica la política de privacidad.
 
-## Gráficos de la ficha (pendiente)
-| Recurso | Formato |
+## Gráficos de la ficha
+| Recurso | Archivo |
 |---|---|
-| Icono | PNG 512 × 512, 32 bits |
-| Gráfico destacado | PNG/JPG 1024 × 500 |
-| Capturas de teléfono | 2–8 capturas, PNG/JPG; el lado largo no puede ser más del doble del corto (las del emulador, 1080 × 2400, hay que recortarlas, p. ej. a 1080 × 2160) |
+| Icono 512 × 512 | `fastlane/metadata/android/en-US/images/icon.png` |
+| Gráfico destacado 1024 × 500 | `fastlane/metadata/android/en-US/images/featureGraphic.png` |
+| Capturas de teléfono (6 por idioma, 1200 × 2400) | `fastlane/metadata/android/<en-US, it-IT, es-ES, ar>/images/phoneScreenshots/1…6.png` |
 
-En las capturas: usar solo números ficticios (`00ZZ000000`), nunca uno real.
+Para los demás idiomas (fr-FR, ru-RU, uk) Google Play muestra las capturas del idioma
+predeterminado (inglés).
+
+Regenerarlos (p. ej. tras cambiar el diseño):
+- `python tools/store_graphics.py` → icono y gráfico destacado.
+- `./gradlew :app:assembleDebug :app:assembleDebugAndroidTest` y `python tools/screenshots.py`
+  → capturas. Usa datos ficticios, corta toda la red del emulador durante el proceso y borra los
+  datos de demostración antes de devolverla. Nunca hacer capturas con números reales.
 
 ## Primera publicación (cuenta personal nueva)
 1. Generar el paquete: `./gradlew :app:bundleRelease` → `app/build/outputs/bundle/release/app-release.aab`
